@@ -6,4 +6,10 @@ PyQt5 tutorial
 - dialog 对话框
 - layout 布局
 - control 控件
+- drag 拖拽
+- painter 绘图
+- component 自定义组件
+- game 俄罗斯方块
+  
+  
   

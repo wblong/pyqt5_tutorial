@@ -22,8 +22,8 @@ class Button(QPushButton):
 
         drag=QDrag(self)
         drag.setMimeData(mimeData)
-        drag.setHotSpot(e.pos()-self.rect().topLeft())
-        print(e.pos()-self.rect().topLeft())
+        drag.setHotSpot(self.rect().topLeft())
+        # print(e.pos()-self.rect().topLeft())
         doAction=drag.exec(Qt.MoveAction)
 
     def mousePressEvent(self,e):
